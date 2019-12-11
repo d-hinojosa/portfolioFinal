@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+
+/* nav bar */
+
+.nav-link {
+    color: #582C4D;
+}
+
+.nav-link:hover {
+    color: #A26769;
+}
+
+
+/**************************************************** Home Page  *******************************************************/
+
+
+/* 1st row */
+
+.column {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* avartar */
+
+.avatar {
+    border-radius: 50%;
+    width: 340px;
+    height: 340px;
+    margin: 55px;
+}
+
+.header-text {
+    text-align: left;
+}
+
+
+/**************************************************** Contact Page  *******************************************************/
+
+
+/* Form */
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=subject] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+/* Style the container/contact section */
+
+.container2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px 10px 45px 10px;
+}
+
+
+/* Create two columns that float next to eachother */
+
+.column2 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+
+/* Clear floats after the columns */
+
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
