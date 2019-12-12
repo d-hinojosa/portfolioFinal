@@ -45,8 +45,8 @@ html {
 
 .avatar {
     border-radius: 50%;
-    width: 340px;
-    height: 340px;
+    width: 240px;
+    height: 240px;
     margin: 55px;
 }
 
@@ -129,6 +129,10 @@ html {
     width: 60%;
     margin: 10vh auto;
     font-size: 1.5em;
+}
+
+.about_para {
+    display: flex;
 }
 
 h3 {
