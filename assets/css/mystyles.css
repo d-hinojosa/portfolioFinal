@@ -11,12 +11,14 @@ html {
 
 /* nav bar */
 
-.nav-link {
-    color: #582C4D;
+.nav a {
+    text-decoration: none;
+    color: #222;
 }
 
+.nav a:active,
 .nav-link:hover {
-    color: #A26769;
+    color: rgb(230, 62, 230);
 }
 
 
@@ -75,37 +77,18 @@ html {
 
 .img-1 {
     background-image: url("https://bit.ly/2rvo59V");
-    min-height: 100%;
+    min-height: 90%;
 }
 
 .img-2 {
     background-image: url("https://bit.ly/2PdRpdL");
-    min-height: 400px;
+    min-height: 200px;
 }
 
 .img-3 {
     background-image: url("https://bit.ly/2PCNp5R");
-    min-height: 400px;
+    min-height: 200px;
 }
-
-
-/* .caption {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-}
-
-.caption span.border {
-    background-color: #121312;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    text-align: center;
-    letter-spacing: 10px;
-} */
 
 .center {
     display: flex;
@@ -191,6 +174,19 @@ h3 {
 
 
 /* End of Parallax Effect*/
+
+
+/**************************************************** Portfolio Page  *******************************************************/
+
+.project-img {
+    height: 350px;
+    width: 550px;
+}
+
+a.links {
+    text-decoration: none;
+    color: rgb(218, 45, 218);
+}
 
 
 /**************************************************** Contact Page  *******************************************************/
