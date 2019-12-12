@@ -55,6 +55,140 @@ html {
 }
 
 
+/*The Parallax Effect*/
+
+body,
+html {
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+.img-1,
+.img-2,
+.img-3 {
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-1 {
+    background-image: url("https://bit.ly/2rvo59V");
+    min-height: 100%;
+}
+
+.img-2 {
+    background-image: url("https://bit.ly/2PdRpdL");
+    min-height: 400px;
+}
+
+.img-3 {
+    background-image: url("https://bit.ly/2PCNp5R");
+    min-height: 400px;
+}
+
+
+/* .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #121312;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 10px;
+} */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center h1,
+.center h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 10vh;
+    border: 4px solid whitesmoke;
+    color: white;
+    background: rgba(0, 0, 0, .8);
+}
+
+.about_para p {
+    width: 60%;
+    margin: 10vh auto;
+    font-size: 1.5em;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+    margin-top: 40px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 6vh auto;
+}
+
+.skills i {
+    font-size: 2.5em;
+}
+
+.html {
+    color: orange;
+}
+
+.css {
+    color: blue;
+}
+
+.js {
+    color: #F1C40F;
+}
+
+.github {
+    color: purple;
+}
+
+.react {
+    color: #47F8E2;
+}
+
+.nodejs {
+    color: green;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+
+@media only screen and (max-device-width: 1024px) {
+    .img-1,
+    .img-2,
+    .img-3 {
+        background-attachment: scroll;
+    }
+}
+
+
+/* End of Parallax Effect*/
+
+
 /**************************************************** Contact Page  *******************************************************/
 
 
