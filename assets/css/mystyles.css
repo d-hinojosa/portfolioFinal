@@ -45,15 +45,6 @@ html {
 /**************************************************** Home Page  *******************************************************/
 
 
-/* name */
-
-
-/* 
-.name {
-    font-family: 'Cinzel', serif;
-} */
-
-
 /* 1st row */
 
 .column {
@@ -90,6 +81,10 @@ html {
 
 .aboutme {
     font-family: 'Rokkitt', serif;
+}
+
+.resume {
+    margin-left: 60px;
 }
 
 
