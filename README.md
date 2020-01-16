@@ -1,6 +1,6 @@
 # Portfolio: Biridiana Hinojosa
 ## Website
-https://cranky-mccarthy-6a4eaa.netlify.com/index.html
+https://cranky-mccarthy-6a4eaa.netlify.com/
 
     
 
